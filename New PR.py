@@ -85,6 +85,5 @@ class App:
         self.dtime['text'] = self.time_to_show
         self.dtime.after(1000, self.time_to_show)
 
-
 if __name__ == '__main__':
     app = App()  # Пустое окно
